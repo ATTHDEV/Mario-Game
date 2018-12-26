@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cpe.project.mariogame.Home"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:textSize="50dp"
+        android:text="Play Game"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/playGame"
+        android:textColor="@color/homeText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:text="About"
+        android:gravity="center"
+        android:id="@+id/about"
+        android:textColor="@color/homeText"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:textSize="50dp"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/exit"
+        android:textColor="@color/homeText"/>
+
+</LinearLayout>
