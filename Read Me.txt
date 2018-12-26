@@ -1,7 +1,0 @@
-This project i created Mario Game in android platform 
-for assignment in my android class in university.
-
-you can see this project in my video in youtube.
-https://www.youtube.com/watch?v=cRqlcYG1gs8
-
-atthawut
